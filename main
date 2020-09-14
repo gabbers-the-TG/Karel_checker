@@ -1,0 +1,72 @@
+/**
+ * Welcome to the Stanford Karel IDE.
+ * This is a free space for you to 
+ * write any Karel program you want.
+ **/
+function main(){
+   oneLine();
+   keepGoing();
+   putBeeper();
+  
+  
+   turnRight();
+   move();
+   otherLineKinda();
+   
+   turnRight();
+   while(frontIsClear()){
+      move();
+      
+   }
+
+   
+   
+      
+      
+   
+   
+ 
+      
+   
+}
+
+function oneLine(){
+      putBeeper();
+  while(frontIsClear()){
+      
+      turnLeft();
+      move();
+      turnRight();
+      move();
+      putBeeper();
+  }
+  turnRight();
+     
+   
+}
+
+
+
+function otherLineKinda(){ //one line(kinda)  
+       
+   while(frontIsClear()){
+         turnRight();
+         move();
+         putBeeper();
+         turnLeft();
+         move();
+         
+   }
+   turnRight();
+   move();
+   putBeeper();
+}
+
+function keepGoing(){
+   while(frontIsClear()){
+      move();
+    }
+   
+}
+
+
