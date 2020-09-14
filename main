@@ -28,6 +28,13 @@ function main(){
    keepGoing();
    turnRight();
    move();
+   turnRight();
+   
+   move();
+   while(noBeepersPresent()){
+      
+   }
+   
 
   
 }
