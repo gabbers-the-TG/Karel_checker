@@ -14,10 +14,15 @@ function main(){
    move();
    otherLineKinda();
 **/
-   
-   while(noBeepersPresent()){
+   putBeeper();
+   while(frontIsClear()){
       move();
-      
+      while(noBeepersPresent()){
+         move();
+         putBeeper();
+         
+         
+      }
    }
 
    
