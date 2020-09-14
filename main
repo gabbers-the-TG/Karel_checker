@@ -4,6 +4,7 @@
  * write any Karel program you want.
  **/
 function main(){
+/**  
    oneLine();
    keepGoing();
    putBeeper();
@@ -12,9 +13,9 @@ function main(){
    turnRight();
    move();
    otherLineKinda();
+**/
    
-   turnRight();
-   while(frontIsClear()){
+   while(noBeepersPresent()){
       move();
       
    }
