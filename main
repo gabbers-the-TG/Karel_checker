@@ -19,22 +19,35 @@ function main(){
       move();
       while(noBeepersPresent()){
          move();
-         putBeeper();
-         
-         
+         putBeeper();  
       }
    }
+   
+   turnRight();
+   turnRight();
+   keepGoing();
+   turnRight();
+   move();
 
+  
+}
+
+function oneColm(){
    
-   
-      
-      
-   
-   
- 
-      
    
 }
+
+function nextColm(){
+   
+   
+}
+
+
+
+
+
+
+
 
 function oneLine(){
       putBeeper();
