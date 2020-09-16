@@ -22,14 +22,7 @@ function main(){
    move();
    otherLineKinda();
 **/
-   putBeeper();
-   while(frontIsClear()){
-      move();
-      while(noBeepersPresent()){
-         move();
-         putBeeper();  
-      }
-   }
+  oneColm();
    
    turnRight();
    turnRight();
@@ -53,6 +46,14 @@ function main(){
 }
 
 function oneColm(){
+     putBeeper();
+   while(frontIsClear()){
+      move();
+      while(noBeepersPresent()){
+         move();
+         putBeeper();  
+      }
+   }
    
    
 }
