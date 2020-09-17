@@ -22,9 +22,14 @@ function main(){
    move();
    otherLineKinda();
 **/
-  evenColm();
-  nextColm();
-  oddColm();
+  while(frontIsClear()){ 
+     evenColm();
+     nextColm();
+     oddColm();
+     nextColm();
+   
+  }
+  
    
    
   
